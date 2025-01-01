@@ -3,10 +3,11 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import { IoCopyOutline } from "react-icons/io5";
 import { cn } from "@/lib/utils";
+import  GridGlobe  from "./GridGlobe";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import animationData from "@/data/confetti.json";
 import MagicButton from './MagicButton';
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+import Lottie from 'react-lottie';
 
 export const BentoGrid = ({
   className,
@@ -46,8 +47,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["C++", "C#", "PYTHON"];
+  const rightLists = ["IOT", "ML", "NETWORKING"];
 
   const [copied, setCopied] = useState(false);
 
@@ -61,7 +62,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "dkikani02@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -131,7 +132,7 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {id === 2 }
+          {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
           {id === 3 && (

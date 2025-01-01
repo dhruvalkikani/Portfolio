@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Actively seeking opportunities: Open to internships, full-time roles, and freelance projects ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a Python-based test automation framework",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,130 +72,116 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Thesis",
+      des: "Deep Learning for Toxic Comment Detection in Online Platforms.",
+      img: "/Thesis1.png",
+      iconLists: ["/tensorflow-icon.svg", "/numpy-icon.svg", "/python-icon.svg", "/Pandas.svg", "/scikit-learn.svg"],
+      link: "https://www.theseus.fi/handle/10024/800522",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: " Test Automation Framework",
+      des: "A Python-based test automation framework using Pytest and Playwright.",
+      img: "/Test_automation.svg",
+      iconLists: ["/pytest.svg", "/Python Poetry.svg", "/python-icon.svg", "/CMake.svg", "/Docker.svg"],
+      link: "https://github.com/dhruvalkikani/Test-Automation-Framework",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Nokia Hackathon Delivery Simulation",
+      des: "Developed a smart IoT project with a full-stack solution.",
+      img: "/IOT.jpg",
+      iconLists: ["/React.svg", "/NodeJs.svg", "/MongoDB.svg", "/mapbox-icon.svg", "/FastAPI.svg"],
+      link: "https://github.com/danilsisov/Innovation-Project?tab=readme-ov-file",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Car Map",
+      des: "Developed a car listing and mapping application featuring filtering and sorting functionality. The app displays cars on a map, updating based on the user's location or a default car location if permissions are denied. Users can tap a car's pin to focus on it, displaying its name and hiding other car pins, with the ability to toggle visibility by tapping again.",
+      img: "/istockphoto-1268054405-612x612.jpg",
+      iconLists: ["/CSS3.svg", "/HTML5.svg", "/React.svg", "/JavaScript.svg", "/mapbox-icon.svg"],
+      link: "https://github.com/dhruvalkikani/Car-Map",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Dhruval's openness to new ideas, quick grasp of complex concepts, and ability to challenge and expand his knowledge were evident in every project. Dhruval's teamwork and problem-solving skills shine brightly, as seen in his leadership during a maze-solving robot competition where his optimization efforts significantly enhanced the robot's performance. His expertise in IoT, networking, and software testing, combined with his ability to manage tight deadlines, made him a reliable and innovative contributor. If you are looking for a motivated and skilled professional with a passion for excellence, Dhruval is an exceptional choice.",
+      name: "Keijo Länsikunnas",
+      title: "Senior Lecturer, Metropolia University of Applied Sciences",
+      img : "bussiness-man.jpg",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Dhruval during his time as a software engineering trainee at Trimble Inc. was a remarkable experience. His ability to tackle a wide range of complex tasks, from frontend desktop application development in C# and C++ to backend cloud API development in C# and Python, showcased his versatility and technical expertise. Dhruval's calm demeanor, open-mindedness, and insightful contributions made him a valued team member from day one. His exceptional balance of eager learning and teamwork was evident as he consistently took on challenges with courage and a positive attitude. If you're seeking a dedicated and adaptable professional who excels in both technical and interpersonal aspects, Dhruval is an outstanding choice.",
+      name: "Peter Laakso",
+      title: "Software engineering manager, Trimble",
+      img : "profile.jpg ",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Supervising Dhruval's Bachelor’s thesis on 'Deep Learning for Toxic Comment Detection in Online Platforms' was a testament to his dedication, technical expertise, and academic excellence. His ability to manage projects effectively while maintaining high-quality work earned his thesis a well-deserved grade of 4 (very good). Dhruval’s strong foundation in machine learning and data analysis, demonstrated during courses such as Mathematics and Methods in Machine Learning and Neural Networks, further highlights his technical prowess. Beyond his technical skills, Dhruval excels in communication and collaboration, making him a pleasure to work with. If you are looking for a driven, knowledgeable, and well-rounded individual, Dhruval is a standout candidate.",
+      name: "Vesa Ollikainen",
+      title: "PhD, Senior Lecturer, Metropolia University of Applied Sciences",
+      img : "user.jpg",
     },
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "Nokia",
+      img: "/Nokia_20231.png",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "Trimble",
+      img: "/Trimble.png",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      name: "Qaraton Technologies Oy",
+      img: "/Q-removebg-preview (1).png",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: "Metropolia University of Applied Sciences",
+      img: "/Metropolia-logo.png",
     },
   ];
+  
   
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      company: "Nokia",
+      title: "Software Trainee",
+      desc: "Developed a smart IoT project with a full-stack solution (ReactJS, NodeJS, MongoDB, Mapbox, ExpressJS), integrating real-time tracking, secure APIs, dynamic front-end, and data visualization tools.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      company: "Trimble Solutions",
+      title: "Software Trainee",
+      desc: " Front-end desktop app development (C#, C++), back-end cloud APIs (C#, Python, ML), Azure deployment, JIRA-based project management, and collaborative problem-solving..",
+      className: "md:col-span-1",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      company: "Qaraton Technologies Oy",
+      title: "Freelance",
+      desc: "Developed a Python-based test automation framework using Pytest and Playwright.",
+      className: "md:col-span-1",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      company : "Metropolia University of Applied Sciences",
+      title: "Part Time Intern",
+      desc: "Participated in a project for setting up a LoRaWAN gateway for SmartIot courses and in automating the process of deploying and revoking LoRaWAN nodes in the SmartIot LoRaWAN.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -205,13 +191,12 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url: "https://github.com/dhruvalkikani",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      url: "https://www.linkedin.com/in/dhruval-kikani-88b651204/",
     },
   ];
+  
